@@ -1,0 +1,19 @@
+// Program Nilai Rapor //
+#include <iostream>
+
+using namespace std;
+int main() {
+    int nilai;
+    std::cout << "Masukkan Nilai Ujian: ";
+    cin>>nilai;
+    if((nilai>=80))
+    cout<<"Predikat dari Nilai: A";
+    else if ((nilai>=60))
+    cout<<"Predikat dari Nilai: B";
+    else if((nilai>=40))
+    cout<<"Predikat dari Nilai: C";
+    else if((nilai>=20))
+    cout<<"Predikat dari Nilai: D";
+    else cout<<"Predikat dari Nilai: E";
+    return 0;
+}
